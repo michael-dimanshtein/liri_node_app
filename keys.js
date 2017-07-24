@@ -1,6 +1,8 @@
 //console.log('this is loaded');
 
-exports.twitterKeys = {
+exports.twitterKeys;
+
+var twitterKeys = {
   consumer_key: 'mc7VJY2mEPeDLLNEycmLKwNHU',
   consumer_secret: 'I90RMKvXjSECBIHGuXDqWexnGco9CdyB2LOFEyitCIozziLGzh',
   access_token_key: '888545092402917379-8pBTYkGIAy3d3SXb8EKHViZW4cXEdWU',

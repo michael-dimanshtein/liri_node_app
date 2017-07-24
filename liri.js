@@ -1,13 +1,12 @@
 const twitKeys = require('./keys.js');
-const Twitter = require('twitter');
 const request = require('request');
+const Twitter = require('twitter');
 const client = new Twitter({
     consumer_key: 'mc7VJY2mEPeDLLNEycmLKwNHU',
     consumer_secret: 'I90RMKvXjSECBIHGuXDqWexnGco9CdyB2LOFEyitCIozziLGzh',
     access_token_key: '888545092402917379-8pBTYkGIAy3d3SXb8EKHViZW4cXEdWU',
     access_token_secret: 'eO2KQxbJAe4aR2Mqe7EiC0GUsnz5CvrZfVe5buHZQC7vX'
 });
-
 
 
 const argv = require('yargs')
